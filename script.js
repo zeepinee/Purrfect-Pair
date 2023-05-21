@@ -76,6 +76,6 @@ $(document).ready(function(){
             break;
 		}
 		if (whichOne === 7) whichOne = 0;
-	}, 5000)
+	}, 3500)
 
 });

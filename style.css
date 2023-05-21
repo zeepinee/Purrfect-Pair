@@ -67,7 +67,7 @@ h3 {
     color: #983133;
     display: flex;
     justify-content: space-between;
-    padding: 80px 41px;
+    padding: 80px 62px;
 }
 
 .logo-image {
@@ -123,3 +123,7 @@ h3 {
     width: 831px;
     position: absolute;
 }
+
+#image2, #image3, #image4, #image5, #image6, #image7 {
+    display: none;
+} 
