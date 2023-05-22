@@ -182,12 +182,12 @@ h3 {
 
 
 .module-1-c-line {
-    height: 58px;
+    height: 58.5px;
     width: 50vw;
     background-color: #F16036;
     position: absolute;
-    top: 1103px;
-    left: 706px;
+    top: 1102.5px;
+    right: 0px;
 }
 
 .module-1-content {
@@ -200,6 +200,7 @@ h3 {
 
 .module-1-left {
     background-color: #983133;
+    width: 52vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -242,7 +243,7 @@ h3 {
     z-index: 10;
     position: absolute;
     top: 11px;
-    right: 42vw;
+    right: 43vw;
 }
 
 /* module 2 content */
