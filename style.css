@@ -436,12 +436,12 @@ a {
 .module-3-j {
     position: absolute;
     top: 0px;
-    right: 7vw;
+    left: 83vw;
 }
 
 .module-3-j-line {
-    height: 50px;
-    width: 82vw;
+    height: 51px;
+    width: 83vw;
     background-color: #983133;
     position: absolute;
     bottom: 124px;
