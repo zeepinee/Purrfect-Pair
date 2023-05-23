@@ -249,7 +249,8 @@ h3 {
 /* module 2 content */
 .module-2 {
     position: relative;
-    padding-top: 55px;
+    padding-top: 75px;
+    height: 800px;
 }
 
 .module-2-hed {
@@ -347,5 +348,101 @@ a {
     text-decoration: underline;
 }
 
+/* breaker 2 goes here */
+.breaker-2 {
+    background-color: #F16036;
+    color: white;
+    border-radius: 23px 0px 0px 23px;
+    height: 200px;
+    margin-left: 270px;
+    margin-top: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.breaker-2-hed {
+    color: white;
+}
 
+.breaker-2-block {
+    background-color: #F16036;
+    color: white;
+    border-radius: 23px 0px 0px 23px;
+    margin-right: 260px;
+    padding-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.breaker-2-line {
+    height: 50px;
+    width: 27vw;
+    background-color: #983133;
+    position: absolute;
+    left: 0px;
+    z-index: -10;
+}
+
+/* module 3 goes here */
+.module-3 {
+    position: relative;
+    padding-top: 55px;
+    height: 509px;
+    justify-content: center;
+    align-items: center;
+}
+
+.module-3-hed {
+    padding: 0px 186px;
+    text-align: center;
+    color: #F16036;
+}
+
+.contact {
+    position: relative;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-content {
+    position: relative;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-email {
+    border-radius: 10px;
+}
+
+.sign-up-button {
+    border-radius: 10px;
+    background-color: #77523D;
+    color: white;
+}
+
+.contact-dek {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.module-3-j {
+    position: absolute;
+    top: 0px;
+    right: 7vw;
+}
+
+.module-3-j-line {
+    height: 50px;
+    width: 82vw;
+    background-color: #983133;
+    position: absolute;
+    bottom: 124px;
+}
