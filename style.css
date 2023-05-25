@@ -92,7 +92,7 @@ h3 {
     color: #983133;
     display: flex;
     justify-content: space-between;
-    padding: 80px 104px;
+    padding: 80px 68px;
     width: 40vw;
 }
 @media screen and (max-width: 950px) {
@@ -822,7 +822,7 @@ a {
     color: #ffffff;
     display: flex;
     justify-content: space-between;
-    padding: 81px 53px 0px 53px;
+    padding: 81px 2px 0px 34px;
     flex-wrap: wrap;
     /* padding: 80px 62px; */
 }
