@@ -22,6 +22,12 @@ h2 {
 h3 {
     font-size: 24px;
 }
+@media screen and (max-width: 950px) {
+    h3 {
+        font-size: 18px;
+
+    }
+}
 
 /* header content  */
 .header {
@@ -56,22 +62,60 @@ h3 {
     top: 0px;
     left: 63vw;
 }
+@media screen and (max-width: 950px) {
+    .header-j{
+        display: none;
+    }
+}
 
 .header-j-line {
     height: 50px;
     width: 63vw;
     background-color: #F16036;
 }
+@media screen and (max-width: 950px) {
+    .header-j-line {
+        height: 27px;
+        width: 100vw;
+        background-color: #F16036;
+        transform: translate(0px, -17px);
+    }
+}
 
 .nav-links {
     color: #983133;
     display: flex;
     justify-content: space-between;
-    padding: 80px 62px;
+    padding: 80px 104px;
+}
+@media screen and (max-width: 950px) {
+    .nav-links {
+        color: #ffffff;
+        flex-direction: column;
+        padding: 51px 41px;
+    }
 }
 
 .logo-image {
     height: 130px;
+}
+@media screen and (max-width: 950px) {
+    .logo-image {
+        display: none;
+    }
+}
+
+.logo-image-white {
+    display: none;
+    height: 58px;
+    position: absolute;
+    transform: translate(35px, -11px);
+}
+@media screen and (max-width: 950px) {
+    .logo-image-white {
+        display: block;
+
+    }
 }
 
 .logo {
@@ -88,6 +132,14 @@ h3 {
     top: 0;
     right: 0;
     border-radius: 0px 0px 0px 20px;
+}
+
+@media screen and (max-width: 950px) {
+    .header-block {
+        width: 100%;
+        border-radius: 0px;
+        z-index: -20;
+    }
 }
 
 /* hero banner content */
@@ -194,9 +246,15 @@ h3 {
     position: absolute;
     top: 58px;
     display: grid;
-    grid-template-columns: 50% 50%;
-    
+    grid-template-columns: 50% 50%;   
 }
+@media screen and (max-width: 950px) {
+    .vmodule-1-content   {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 .lifestyle-quiz-image, .cat-matching-image {
     height: 333px;
@@ -221,6 +279,12 @@ h3 {
     align-items: center;
     height: 805px;
     padding-top: 66px;
+}
+
+@media screen and (max-width: 950px) {
+    .module-1-right {
+        margin-left: 0px;
+    }
 }
 
 .module-1-left-hed {
@@ -252,6 +316,12 @@ h3 {
     right: 46vw;
 }
 
+@media screen and (max-width: 950px) {
+    .vertical-line   {
+        display: none;
+    }
+}
+
 /* module 2 content */
 .module-2 {
     position: relative;
@@ -270,6 +340,8 @@ h3 {
     padding-left: 30px;
     padding-right: 30px;
     justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
 }
 
 .blog-card {
@@ -383,6 +455,12 @@ a {
     text-align: center;
 }
 
+@media screen and (max-width: 950px) {
+    .breaker-2-block {
+        margin-right: 0px;
+    }
+}
+
 .breaker-2-line {
     height: 50px;
     width: 27vw;
@@ -453,6 +531,12 @@ a {
     bottom: 124px;
 }
 
+@media screen and (max-width: 950px) {
+    .module-3-j  {
+        display: none;
+    }
+}
+
 /* bottom banner goes here */
 .bottom-banner {
     top: 0px;
@@ -472,13 +556,20 @@ a {
     display: flex;
     width: 70%;
 }
+@media screen and (max-width: 950px) {
+    .bottom-banner-content  {
+        flex-direction: column-reverse;
+        right: 0px;
+        bottom: 0px;
+    }
+}
 
 .bottom-banner-image {
     height: 200px;
     justify-content: center;
     align-items: center;
     display: flex;
-    padding-right: 363px;
+    /* padding-right: 363px; */
 }
 
 .bottom-banner-copy {
@@ -549,3 +640,11 @@ a {
     transform: translate(10px, 86px);
 }
            
+
+
+
+
+
+/* breaker-2-block - lose margin right ;   
+module-1-right - lose margin-left ;  
+module-3-j-line - remove altogether */
